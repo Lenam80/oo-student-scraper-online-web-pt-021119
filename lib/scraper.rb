@@ -7,7 +7,7 @@ attr_accessors: :name, :location, :profile_url
 @@all = []
 
 def initialize
-  @@all << self 
+  @@all << self
 end
 
 
