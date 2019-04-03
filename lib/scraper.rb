@@ -13,7 +13,7 @@ end
 
   def self.scrape_index_page(index_url)
 {:name=>"Joe Burgess", :location=>"New York, NY",
-{:name=>"Mathieu Balez", :location=>"New York, NY", :profile_url=>"students/mathieu-balez.html"}
+{:name=>"Mathieu Balez", :location=>"New York, NY", 
   end
 
   def self.scrape_profile_page(profile_url)
