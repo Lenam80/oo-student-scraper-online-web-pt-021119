@@ -2,7 +2,7 @@ require 'open-uri'
 require 'pry'
 
 class Scraper
-attr_accessors: student: name:
+attr_accessors: :name, :location, :profile_url
 
   def self.scrape_index_page(index_url)
 
